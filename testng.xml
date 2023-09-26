@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TESTNG">
+    <listeners>
+        <listener class-name="utility.listnerTest" />
+    </listeners>
+    <test name="POM_maven">
+        <classes>
+            <class name="utility.Test_case"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
